@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-02T20:28:09.070Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15" etag="vxM1c2J1kBV9_euMKzXu" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-02T20:33:44.634Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15" etag="4tvnNdN7FpfjTDpz4sm2" version="22.1.16" type="github">
   <diagram name="Page-1" id="_SyBhIFOfjh_DDNiRt_G">
-    <mxGraphModel dx="477" dy="364" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1004" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -553,6 +553,9 @@
         </mxCell>
         <mxCell id="gwygIoX9PxEvVInZPJI2-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.557;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9XM3bCyei9nDN30-y9iY-8" target="9XM3bCyei9nDN30-y9iY-24">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gwygIoX9PxEvVInZPJI2-18" value="ML Training Subscription&lt;br&gt;&lt;ol&gt;&lt;li&gt;Training data for Azure ML models are stored in Azure Data lake which gets pre-processed by a set of Functions, Logic Apps and Document Intelligence&lt;/li&gt;&lt;li&gt;Then this data is fed to the Azure ML models for training and then these ML models gets deployed as endpoints in XaaS ML models.&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="480" y="759.28" width="670" height="40.72" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

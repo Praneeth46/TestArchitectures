@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-02T17:45:55.419Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15" etag="JuQ6D2USXsM7b8YFOstj" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-02T18:41:38.801Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15" etag="T6n0wkxTm1R4f8s9PX8l" version="22.1.16" type="github">
   <diagram name="Page-1" id="_SyBhIFOfjh_DDNiRt_G">
-    <mxGraphModel dx="954" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="795" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -112,11 +112,17 @@
         <mxCell id="9XM3bCyei9nDN30-y9iY-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9XM3bCyei9nDN30-y9iY-47" target="9XM3bCyei9nDN30-y9iY-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="gwygIoX9PxEvVInZPJI2-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="280" as="targetPoint" />
+            <mxPoint x="240" y="180" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="9XM3bCyei9nDN30-y9iY-47" value="Edge location" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.edge_location;" parent="1" vertex="1">
-          <mxGeometry x="216" y="100" width="60" height="60" as="geometry" />
+          <mxGeometry x="210" y="100" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9XM3bCyei9nDN30-y9iY-48" value="Edge location" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.edge_location;" parent="1" vertex="1">
-          <mxGeometry x="216" y="480.67" width="60" height="60" as="geometry" />
+          <mxGeometry x="210" y="480.67" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9XM3bCyei9nDN30-y9iY-121" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9XM3bCyei9nDN30-y9iY-24" target="9XM3bCyei9nDN30-y9iY-120" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -396,7 +402,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="X3637jFj8HE0ACIkSuZc-1" value="EXL Platform admin" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="40" y="540.67" width="80" height="30" as="geometry" />
+          <mxGeometry x="50" y="542.92" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X3637jFj8HE0ACIkSuZc-2" value="" style="shape=actor;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="482.91999999999996" width="40" height="60" as="geometry" />
@@ -507,13 +513,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gwygIoX9PxEvVInZPJI2-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.455;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="JN2mKcrzm0x3pErmMH2V-17">
+        <mxCell id="gwygIoX9PxEvVInZPJI2-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9XM3bCyei9nDN30-y9iY-48">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="247" y="180" as="sourcePoint" />
+            <mxPoint x="240" y="390" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="gwygIoX9PxEvVInZPJI2-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.456;entryY=1.125;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9XM3bCyei9nDN30-y9iY-48" target="X3637jFj8HE0ACIkSuZc-5">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gwygIoX9PxEvVInZPJI2-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.247;entryY=0.453;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JN2mKcrzm0x3pErmMH2V-17" target="JN2mKcrzm0x3pErmMH2V-18">
           <mxGeometry relative="1" as="geometry" />
@@ -541,6 +544,9 @@
               <mxPoint x="1140" y="86" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="gwygIoX9PxEvVInZPJI2-14" value="&lt;div&gt;XaaS Platform Workflow&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;XaaS Platform Admin invokes Platform UI which is hosted on Azure Front Door and the admin is authenticated with Azure AD.&lt;/li&gt;&lt;li&gt;The XaaS Platform UI doesn&#39;t deal with Client data. This is just to manage the XaaS tenant Onboarding process.&lt;/li&gt;&lt;li&gt;The UI connects with API Management in XaaS Platform Services through the WAF&lt;/li&gt;&lt;li&gt;The API Management is connected to various Azure Functions and invokes DevOps pipelines to Onboard tenants.&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="300" y="479.28" width="240" height="140.72" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

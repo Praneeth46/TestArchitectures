@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-02T18:41:38.801Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15" etag="T6n0wkxTm1R4f8s9PX8l" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-02T20:14:33.796Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15" etag="apxWZmZ08zfN9eNHkXWh" version="22.1.16" type="github">
   <diagram name="Page-1" id="_SyBhIFOfjh_DDNiRt_G">
-    <mxGraphModel dx="795" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="398" dy="303" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -100,7 +100,7 @@
         <mxCell id="9XM3bCyei9nDN30-y9iY-43" value="ML Training Subscription" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="558.75" y="542.92" width="141.25" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="9XM3bCyei9nDN30-y9iY-44" value="XaaS Subscription" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="9XM3bCyei9nDN30-y9iY-44" value="XaaS Tenant" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="560" y="10" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="9XM3bCyei9nDN30-y9iY-45" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -108,9 +108,6 @@
         </mxCell>
         <mxCell id="9XM3bCyei9nDN30-y9iY-46" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="570" y="424" width="540" height="96" as="geometry" />
-        </mxCell>
-        <mxCell id="9XM3bCyei9nDN30-y9iY-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9XM3bCyei9nDN30-y9iY-47" target="9XM3bCyei9nDN30-y9iY-24" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gwygIoX9PxEvVInZPJI2-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -240,14 +237,14 @@
         <mxCell id="9XM3bCyei9nDN30-y9iY-111" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/devops/Azure_DevOps.svg;" parent="1" vertex="1">
           <mxGeometry x="1030" y="439.28" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9XM3bCyei9nDN30-y9iY-119" value="Tenant VNet" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="569" y="30" width="70" height="20" as="geometry" />
+        <mxCell id="9XM3bCyei9nDN30-y9iY-119" value="XaaS Subscription" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="569" y="30" width="101" height="20" as="geometry" />
         </mxCell>
         <mxCell id="9XM3bCyei9nDN30-y9iY-120" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Azure_Active_Directory.svg;" parent="1" vertex="1">
           <mxGeometry x="584" y="60" width="40" height="36.57" as="geometry" />
         </mxCell>
         <mxCell id="9XM3bCyei9nDN30-y9iY-122" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/storage/Storage_Accounts.svg;" parent="1" vertex="1">
-          <mxGeometry x="660" y="50" width="40" height="32" as="geometry" />
+          <mxGeometry x="676" y="52.5" width="40" height="32" as="geometry" />
         </mxCell>
         <mxCell id="9XM3bCyei9nDN30-y9iY-204" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9XM3bCyei9nDN30-y9iY-123" target="9XM3bCyei9nDN30-y9iY-145" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -263,7 +260,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9XM3bCyei9nDN30-y9iY-123" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Container_App_Environments.svg;" parent="1" vertex="1">
+        <mxCell id="9XM3bCyei9nDN30-y9iY-123" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Container_App_Environments.svg;direction=east;" parent="1" vertex="1">
           <mxGeometry x="716" y="300" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9XM3bCyei9nDN30-y9iY-183" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9XM3bCyei9nDN30-y9iY-125" target="9XM3bCyei9nDN30-y9iY-146" edge="1">
@@ -368,7 +365,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9XM3bCyei9nDN30-y9iY-194" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/storage/Storage_Accounts.svg;" parent="1" vertex="1">
-          <mxGeometry x="774" y="50" width="40" height="32" as="geometry" />
+          <mxGeometry x="790" y="50" width="40" height="32" as="geometry" />
         </mxCell>
         <mxCell id="9XM3bCyei9nDN30-y9iY-198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.024;entryY=0.447;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="9XM3bCyei9nDN30-y9iY-80" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -468,10 +465,10 @@
           <mxGeometry x="870" y="150" width="94" height="12.35" as="geometry" />
         </mxCell>
         <mxCell id="X3637jFj8HE0ACIkSuZc-28" value="Storage Account" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="770" y="42.49999999999999" width="92.5" height="7.5" as="geometry" />
+          <mxGeometry x="828.75" y="52.49999999999999" width="92.5" height="7.5" as="geometry" />
         </mxCell>
         <mxCell id="X3637jFj8HE0ACIkSuZc-30" value="Storage Account" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="658.5" y="42.49999999999999" width="92.5" height="7.5" as="geometry" />
+          <mxGeometry x="714.5" y="59.510000000000005" width="43" height="17.99" as="geometry" />
         </mxCell>
         <mxCell id="X3637jFj8HE0ACIkSuZc-31" value="Azure ML" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1046" y="107.00999999999999" width="60" height="10" as="geometry" />
@@ -546,7 +543,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gwygIoX9PxEvVInZPJI2-14" value="&lt;div&gt;XaaS Platform Workflow&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;XaaS Platform Admin invokes Platform UI which is hosted on Azure Front Door and the admin is authenticated with Azure AD.&lt;/li&gt;&lt;li&gt;The XaaS Platform UI doesn&#39;t deal with Client data. This is just to manage the XaaS tenant Onboarding process.&lt;/li&gt;&lt;li&gt;The UI connects with API Management in XaaS Platform Services through the WAF&lt;/li&gt;&lt;li&gt;The API Management is connected to various Azure Functions and invokes DevOps pipelines to Onboard tenants.&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="300" y="479.28" width="240" height="140.72" as="geometry" />
+          <mxGeometry x="40" y="618.56" width="240" height="140.72" as="geometry" />
+        </mxCell>
+        <mxCell id="gwygIoX9PxEvVInZPJI2-15" value="&lt;font&gt;&lt;span style=&quot;font-size: 9px;&quot;&gt;Client App Injection and Extraction:&lt;/span&gt;&lt;br&gt;&lt;ol style=&quot;font-size: 9px;&quot;&gt;&lt;li&gt;Upstream Application calls for Injestion API &amp;nbsp;to upload documents which gets resolved to the WAF which then gets forwarded Load Balancer in &amp;nbsp;XaaS subscription through the Application Gateway and Virtual WAN.&lt;/li&gt;&lt;li&gt;Ingestion Service is hosted in Container Apps which also calls various other micro services.&lt;/li&gt;&lt;li&gt;The documents ingested are stored in data lake.&lt;/li&gt;&lt;li&gt;Ingestion Service also calls the Xtrakto Pipeline for data extraction for which the pipeine follows various document processing steps through Functions, Logic Apps and Document Intelligence&amp;nbsp;&lt;/li&gt;&lt;li&gt;Xtrakto Pipeline upon the preprocessing calls the Azure ML models and the output is stored in data lake in JSON Format as Extracted data.&lt;/li&gt;&lt;li&gt;The Extracted data is accessible for human validation and upon validation the Validated data is sent back to Downstream Application.&lt;/li&gt;&lt;li&gt;Metric events from Xtrakto pipeline are sent to Stream analytics to be streamed in real time to Synapse Analytics.&lt;/li&gt;&lt;li&gt;This real time analytics are showcased in PowerBI dashboards which are embedded into the Validation UI.&lt;/li&gt;&lt;/ol&gt;&lt;/font&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelPosition=center;verticalLabelPosition=middle;" vertex="1" parent="1">
+          <mxGeometry x="300" y="479.28" width="240" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="gwygIoX9PxEvVInZPJI2-16" value="&lt;font&gt;&lt;span style=&quot;font-size: 9px;&quot;&gt;XaaS Validation UI&lt;/span&gt;&lt;br&gt;&lt;ol style=&quot;font-size: 9px;&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;XaaS Front end Users invoke Validation UI which is hosted in Front door.&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;UI URL is resolved the WAF by the DNS which forwards the traffic to Application gateway&lt;/li&gt;&lt;/ol&gt;&lt;/font&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="20" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gwygIoX9PxEvVInZPJI2-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.557;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9XM3bCyei9nDN30-y9iY-8" target="9XM3bCyei9nDN30-y9iY-24">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

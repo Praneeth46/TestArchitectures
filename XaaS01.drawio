@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-02T20:33:44.634Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15" etag="4tvnNdN7FpfjTDpz4sm2" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-03T09:01:38.165Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15" etag="9SnOjwZSxIuvAiD3X1eR" version="22.1.16" type="github">
   <diagram name="Page-1" id="_SyBhIFOfjh_DDNiRt_G">
-    <mxGraphModel dx="1004" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="578" dy="400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,6 +31,14 @@
         <mxCell id="JN2mKcrzm0x3pErmMH2V-10" value="Downstream application" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="55" y="340" width="75" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="-_9wLGj-5bbOgx61z08L-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#008a00;strokeColor=#005700;flowAnimation=1;dashed=1;strokeWidth=2;" edge="1" parent="1" source="JN2mKcrzm0x3pErmMH2V-17" target="JN2mKcrzm0x3pErmMH2V-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="178" y="330" />
+              <mxPoint x="178" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="JN2mKcrzm0x3pErmMH2V-17" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Web_Application_Firewall_Policies_WAF.svg;" parent="1" vertex="1">
           <mxGeometry x="216" y="282.25" width="68" height="68" as="geometry" />
         </mxCell>
@@ -43,29 +51,17 @@
         <mxCell id="JN2mKcrzm0x3pErmMH2V-20" value="VNet" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="324" y="280" width="36" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="JN2mKcrzm0x3pErmMH2V-25" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="140" y="280" as="sourcePoint" />
-            <mxPoint x="190" y="320" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="180" y="280" />
-              <mxPoint x="180" y="320" />
-              <mxPoint x="190" y="320" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="9XM3bCyei9nDN30-y9iY-8" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Virtual_WANs.svg;" parent="1" vertex="1">
           <mxGeometry x="430" y="195" width="65" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="9XM3bCyei9nDN30-y9iY-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="X3637jFj8HE0ACIkSuZc-7" target="9XM3bCyei9nDN30-y9iY-8" edge="1">
+        <mxCell id="9XM3bCyei9nDN30-y9iY-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;dashed=1;strokeWidth=2;fillColor=#0050ef;strokeColor=#001DBC;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="390" y="235" />
+              <mxPoint x="380" y="222.25" />
             </Array>
+            <mxPoint x="380" y="295.25" as="sourcePoint" />
+            <mxPoint x="430" y="222.24999999999994" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="JN2mKcrzm0x3pErmMH2V-29" value="" style="outlineConnect=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.application_load_balancer;fillColor=#F58536;gradientColor=none;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="370" y="297" width="40" height="43" as="geometry" />
         </mxCell>
         <mxCell id="9XM3bCyei9nDN30-y9iY-13" value="XaaS Front End Web UI" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="50" width="150" height="30" as="geometry" />
@@ -82,7 +78,7 @@
         <mxCell id="9XM3bCyei9nDN30-y9iY-32" value="XaaS Platform UI" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="430.67" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9XM3bCyei9nDN30-y9iY-33" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="9XM3bCyei9nDN30-y9iY-48" edge="1">
+        <mxCell id="9XM3bCyei9nDN30-y9iY-33" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;strokeWidth=2;fillColor=#e51400;strokeColor=#B20000;dashed=1;" parent="1" target="9XM3bCyei9nDN30-y9iY-48" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="100" y="510.38" as="sourcePoint" />
             <mxPoint x="206" y="510.38" as="targetPoint" />
@@ -109,7 +105,7 @@
         <mxCell id="9XM3bCyei9nDN30-y9iY-46" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="570" y="424" width="540" height="96" as="geometry" />
         </mxCell>
-        <mxCell id="gwygIoX9PxEvVInZPJI2-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+        <mxCell id="gwygIoX9PxEvVInZPJI2-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;fillColor=#0050ef;strokeColor=#001DBC;dashed=1;strokeWidth=2;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="240" y="280" as="targetPoint" />
             <mxPoint x="240" y="180" as="sourcePoint" />
@@ -130,9 +126,10 @@
         <mxCell id="9XM3bCyei9nDN30-y9iY-51" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.azure_load_balancer;" parent="1" vertex="1">
           <mxGeometry x="585" y="217.5" width="40" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="9XM3bCyei9nDN30-y9iY-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.042;entryY=0.281;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="9XM3bCyei9nDN30-y9iY-8" target="9XM3bCyei9nDN30-y9iY-51" edge="1">
+        <mxCell id="9XM3bCyei9nDN30-y9iY-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.042;entryY=0.281;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;fillColor=#008a00;strokeColor=#005700;dashed=1;strokeWidth=2;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="780" y="293" as="targetPoint" />
+            <mxPoint x="583.32" y="232.83500000000004" as="targetPoint" />
+            <mxPoint x="495" y="232.5" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9XM3bCyei9nDN30-y9iY-63" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -501,32 +498,20 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gwygIoX9PxEvVInZPJI2-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.015;entryY=0.555;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="JN2mKcrzm0x3pErmMH2V-7" target="JN2mKcrzm0x3pErmMH2V-17">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="150" y="360" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="180" y="360" />
-              <mxPoint x="180" y="320" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gwygIoX9PxEvVInZPJI2-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9XM3bCyei9nDN30-y9iY-48">
+        <mxCell id="gwygIoX9PxEvVInZPJI2-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e51400;strokeColor=#B20000;dashed=1;strokeWidth=2;flowAnimation=1;" parent="1" source="9XM3bCyei9nDN30-y9iY-48" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="240" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gwygIoX9PxEvVInZPJI2-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.247;entryY=0.453;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JN2mKcrzm0x3pErmMH2V-17" target="JN2mKcrzm0x3pErmMH2V-18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="gwygIoX9PxEvVInZPJI2-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.012;entryY=0.636;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JN2mKcrzm0x3pErmMH2V-17" target="9XM3bCyei9nDN30-y9iY-62">
+        <mxCell id="gwygIoX9PxEvVInZPJI2-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.012;entryY=0.636;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;dashed=1;fillColor=#e51400;strokeColor=#B20000;flowAnimation=1;" parent="1" source="JN2mKcrzm0x3pErmMH2V-17" target="9XM3bCyei9nDN30-y9iY-62" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="300" y="316" />
-              <mxPoint x="300" y="463" />
+              <mxPoint x="300" y="330" />
+              <mxPoint x="300" y="464" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gwygIoX9PxEvVInZPJI2-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.019;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9XM3bCyei9nDN30-y9iY-122" target="9XM3bCyei9nDN30-y9iY-24">
+        <mxCell id="gwygIoX9PxEvVInZPJI2-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.019;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="9XM3bCyei9nDN30-y9iY-122" target="9XM3bCyei9nDN30-y9iY-24" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="680" y="120" />
@@ -534,7 +519,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gwygIoX9PxEvVInZPJI2-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.506;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9XM3bCyei9nDN30-y9iY-99" target="9XM3bCyei9nDN30-y9iY-170">
+        <mxCell id="gwygIoX9PxEvVInZPJI2-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.506;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="9XM3bCyei9nDN30-y9iY-99" target="9XM3bCyei9nDN30-y9iY-170" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1140" y="617" />
@@ -542,20 +527,62 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gwygIoX9PxEvVInZPJI2-14" value="&lt;div&gt;XaaS Platform Workflow&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;XaaS Platform Admin invokes Platform UI which is hosted on Azure Front Door and the admin is authenticated with Azure AD.&lt;/li&gt;&lt;li&gt;The XaaS Platform UI doesn&#39;t deal with Client data. This is just to manage the XaaS tenant Onboarding process.&lt;/li&gt;&lt;li&gt;The UI connects with API Management in XaaS Platform Services through the WAF&lt;/li&gt;&lt;li&gt;The API Management is connected to various Azure Functions and invokes DevOps pipelines to Onboard tenants.&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="gwygIoX9PxEvVInZPJI2-14" value="&lt;div&gt;XaaS Platform Workflow&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;XaaS Platform Admin invokes Platform UI which is hosted on Azure Front Door and the admin is authenticated with Azure AD.&lt;/li&gt;&lt;li&gt;The XaaS Platform UI doesn&#39;t deal with Client data. This is just to manage the XaaS tenant Onboarding process.&lt;/li&gt;&lt;li&gt;The UI connects with API Management in XaaS Platform Services through the WAF&lt;/li&gt;&lt;li&gt;The API Management is connected to various Azure Functions and invokes DevOps pipelines to Onboard tenants.&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="40" y="618.56" width="240" height="140.72" as="geometry" />
         </mxCell>
-        <mxCell id="gwygIoX9PxEvVInZPJI2-15" value="&lt;font&gt;&lt;span style=&quot;font-size: 9px;&quot;&gt;Client App Injection and Extraction:&lt;/span&gt;&lt;br&gt;&lt;ol style=&quot;font-size: 9px;&quot;&gt;&lt;li&gt;Upstream Application calls for Injestion API &amp;nbsp;to upload documents which gets resolved to the WAF which then gets forwarded Load Balancer in &amp;nbsp;XaaS subscription through the Application Gateway and Virtual WAN.&lt;/li&gt;&lt;li&gt;Ingestion Service is hosted in Container Apps which also calls various other micro services.&lt;/li&gt;&lt;li&gt;The documents ingested are stored in data lake.&lt;/li&gt;&lt;li&gt;Ingestion Service also calls the Xtrakto Pipeline for data extraction for which the pipeine follows various document processing steps through Functions, Logic Apps and Document Intelligence&amp;nbsp;&lt;/li&gt;&lt;li&gt;Xtrakto Pipeline upon the preprocessing calls the Azure ML models and the output is stored in data lake in JSON Format as Extracted data.&lt;/li&gt;&lt;li&gt;The Extracted data is accessible for human validation and upon validation the Validated data is sent back to Downstream Application.&lt;/li&gt;&lt;li&gt;Metric events from Xtrakto pipeline are sent to Stream analytics to be streamed in real time to Synapse Analytics.&lt;/li&gt;&lt;li&gt;This real time analytics are showcased in PowerBI dashboards which are embedded into the Validation UI.&lt;/li&gt;&lt;/ol&gt;&lt;/font&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelPosition=center;verticalLabelPosition=middle;" vertex="1" parent="1">
+        <mxCell id="gwygIoX9PxEvVInZPJI2-15" value="&lt;font&gt;&lt;span style=&quot;font-size: 9px;&quot;&gt;Client App Injection and Extraction:&lt;/span&gt;&lt;br&gt;&lt;ol style=&quot;font-size: 9px;&quot;&gt;&lt;li&gt;Upstream Application calls for Injestion API &amp;nbsp;to upload documents which gets resolved to the WAF which then gets forwarded Load Balancer in &amp;nbsp;XaaS subscription through the Application Gateway and Virtual WAN.&lt;/li&gt;&lt;li&gt;Ingestion Service is hosted in Container Apps which also calls various other micro services.&lt;/li&gt;&lt;li&gt;The documents ingested are stored in data lake.&lt;/li&gt;&lt;li&gt;Ingestion Service also calls the Xtrakto Pipeline for data extraction for which the pipeine follows various document processing steps through Functions, Logic Apps and Document Intelligence&amp;nbsp;&lt;/li&gt;&lt;li&gt;Xtrakto Pipeline upon the preprocessing calls the Azure ML models and the output is stored in data lake in JSON Format as Extracted data.&lt;/li&gt;&lt;li&gt;The Extracted data is accessible for human validation and upon validation the Validated data is sent back to Downstream Application.&lt;/li&gt;&lt;li&gt;Metric events from Xtrakto pipeline are sent to Stream analytics to be streamed in real time to Synapse Analytics.&lt;/li&gt;&lt;li&gt;This real time analytics are showcased in PowerBI dashboards which are embedded into the Validation UI.&lt;/li&gt;&lt;/ol&gt;&lt;/font&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelPosition=center;verticalLabelPosition=middle;" parent="1" vertex="1">
           <mxGeometry x="300" y="479.28" width="240" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="gwygIoX9PxEvVInZPJI2-16" value="&lt;font&gt;&lt;span style=&quot;font-size: 9px;&quot;&gt;XaaS Validation UI&lt;/span&gt;&lt;br&gt;&lt;ol style=&quot;font-size: 9px;&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;XaaS Front end Users invoke Validation UI which is hosted in Front door.&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;UI URL is resolved the WAF by the DNS which forwards the traffic to Application gateway and then to Virtual WAN.&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Virtual WAN is connected to the front door which authenticates the user&#39;s request through Azure AD &amp;nbsp;and showcases the embedded dashboards.&lt;/li&gt;&lt;/ol&gt;&lt;/font&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="gwygIoX9PxEvVInZPJI2-16" value="&lt;font&gt;&lt;span style=&quot;font-size: 9px;&quot;&gt;XaaS Validation UI&lt;/span&gt;&lt;br&gt;&lt;ol style=&quot;font-size: 9px;&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;XaaS Front end Users invoke Validation UI which is hosted in Front door.&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;UI URL is resolved the WAF by the DNS which forwards the traffic to Application gateway and then to Virtual WAN.&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Virtual WAN is connected to the front door which authenticates the user&#39;s request through Azure AD &amp;nbsp;and showcases the embedded dashboards.&lt;/li&gt;&lt;/ol&gt;&lt;/font&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="300" y="20" width="240" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="gwygIoX9PxEvVInZPJI2-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.557;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9XM3bCyei9nDN30-y9iY-8" target="9XM3bCyei9nDN30-y9iY-24">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="gwygIoX9PxEvVInZPJI2-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.557;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#0050ef;strokeColor=#001DBC;dashed=1;strokeWidth=2;flowAnimation=1;" parent="1" source="9XM3bCyei9nDN30-y9iY-8" target="9XM3bCyei9nDN30-y9iY-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="220" />
+              <mxPoint x="540" y="132" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="gwygIoX9PxEvVInZPJI2-18" value="ML Training Subscription&lt;br&gt;&lt;ol&gt;&lt;li&gt;Training data for Azure ML models are stored in Azure Data lake which gets pre-processed by a set of Functions, Logic Apps and Document Intelligence&lt;/li&gt;&lt;li&gt;Then this data is fed to the Azure ML models for training and then these ML models gets deployed as endpoints in XaaS ML models.&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="gwygIoX9PxEvVInZPJI2-18" value="ML Training Subscription&lt;br&gt;&lt;ol&gt;&lt;li&gt;Training data for Azure ML models are stored in Azure Data lake which gets pre-processed by a set of Functions, Logic Apps and Document Intelligence&lt;/li&gt;&lt;li&gt;Then this data is fed to the Azure ML models for training and then these ML models gets deployed as endpoints in XaaS ML models.&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="480" y="759.28" width="670" height="40.72" as="geometry" />
+        </mxCell>
+        <mxCell id="-_9wLGj-5bbOgx61z08L-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.501;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;fillColor=#008a00;strokeColor=#005700;dashed=1;strokeWidth=2;" edge="1" parent="1" source="JN2mKcrzm0x3pErmMH2V-9" target="JN2mKcrzm0x3pErmMH2V-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="178" y="280" />
+              <mxPoint x="178" y="316" />
+              <mxPoint x="216" y="316" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-_9wLGj-5bbOgx61z08L-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.247;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fillColor=#0050ef;strokeColor=#001DBC;strokeWidth=2;flowAnimation=1;" edge="1" parent="1" source="JN2mKcrzm0x3pErmMH2V-17" target="JN2mKcrzm0x3pErmMH2V-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="310" />
+              <mxPoint x="300" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-_9wLGj-5bbOgx61z08L-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;dashed=1;fillColor=#008a00;strokeColor=#005700;flowAnimation=1;" edge="1" parent="1" source="JN2mKcrzm0x3pErmMH2V-17" target="JN2mKcrzm0x3pErmMH2V-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="320" />
+              <mxPoint x="350" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JN2mKcrzm0x3pErmMH2V-29" value="" style="outlineConnect=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.application_load_balancer;fillColor=#F58536;gradientColor=none;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="370" y="293" width="40" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="-_9wLGj-5bbOgx61z08L-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#008a00;strokeColor=#005700;dashed=1;strokeWidth=2;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="397" y="236.5" />
+            </Array>
+            <mxPoint x="397" y="294.5" as="sourcePoint" />
+            <mxPoint x="437" y="236.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

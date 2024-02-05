@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-05T13:40:47.108Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="6P8HFSTT5JFKM5rLY4V5" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-05T13:59:06.637Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="E1dd5SC8lLjcD2y2Xli_" version="23.1.1" type="github">
   <diagram name="Page-1" id="_SyBhIFOfjh_DDNiRt_G">
     <mxGraphModel dx="954" dy="727" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
@@ -122,7 +122,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hL6KDrI0XWJ_auuXcyRS-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;dashed=1;strokeColor=#001DBC;flowAnimation=1;fillColor=#0050ef;" edge="1" parent="1" source="9XM3bCyei9nDN30-y9iY-24" target="9XM3bCyei9nDN30-y9iY-47">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="416" y="152" />
+              <mxPoint x="416" y="152" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="9XM3bCyei9nDN30-y9iY-24" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Front_Doors.svg;" parent="1" vertex="1">
           <mxGeometry x="582" y="125.36000000000001" width="40" height="35.29" as="geometry" />
@@ -143,7 +148,7 @@
           <mxGeometry x="570" y="452.99999999999994" width="40" height="36.92" as="geometry" />
         </mxCell>
         <mxCell id="9XM3bCyei9nDN30-y9iY-66" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/NAT.svg;" parent="1" vertex="1">
-          <mxGeometry x="454" y="335" width="38" height="38" as="geometry" />
+          <mxGeometry x="459" y="340" width="33" height="33" as="geometry" />
         </mxCell>
         <mxCell id="9XM3bCyei9nDN30-y9iY-67" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="578" y="604.17" width="146" height="142" as="geometry" />
@@ -533,10 +538,10 @@
           <mxGeometry x="22" y="631.56" width="240" height="140.72" as="geometry" />
         </mxCell>
         <mxCell id="gwygIoX9PxEvVInZPJI2-15" value="&lt;h2&gt;&lt;font style=&quot;font-size: 13px;&quot; color=&quot;#38571a&quot;&gt;Client App Injection and Extraction&lt;/font&gt;&lt;/h2&gt;&lt;font&gt;&lt;ol style=&quot;font-size: 9px;&quot;&gt;&lt;li&gt;Upstream Application calls for Injestion API &amp;nbsp;to upload documents which gets resolved to the WAF which then gets forwarded Load Balancer in &amp;nbsp;XaaS subscription through the Application Gateway and Virtual WAN.&lt;br&gt;&lt;/li&gt;&lt;li&gt;Ingestion Service is hosted in Container Apps which also calls various other micro services.&lt;/li&gt;&lt;li&gt;The documents ingested are stored in data lake.&lt;/li&gt;&lt;li&gt;Ingestion Service also calls the Xtrakto Pipeline for data extraction for which the pipeine follows various document processing steps through Functions, Logic Apps and Document Intelligence&amp;nbsp;&lt;/li&gt;&lt;li&gt;Xtrakto Pipeline upon the preprocessing calls the Azure ML models and the output is stored in data lake in JSON Format as Extracted data.&lt;/li&gt;&lt;li&gt;The Extracted data is accessible for human validation and upon validation the Validated data is sent back to Downstream Application.&lt;/li&gt;&lt;li&gt;Metric events from Xtrakto pipeline are sent to Stream analytics to be streamed in real time to Synapse Analytics.&lt;/li&gt;&lt;li&gt;This real time analytics are showcased in PowerBI dashboards which are embedded into the Validation UI.&lt;/li&gt;&lt;/ol&gt;&lt;/font&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelPosition=center;verticalLabelPosition=middle;" parent="1" vertex="1">
-          <mxGeometry x="272" y="489.42" width="250" height="280" as="geometry" />
+          <mxGeometry x="265" y="470.92" width="264" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="gwygIoX9PxEvVInZPJI2-16" value="&lt;h2&gt;&lt;font color=&quot;#0056d6&quot; style=&quot;font-size: 13px;&quot;&gt;XaaS Validation UI&lt;/font&gt;&lt;/h2&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;ol style=&quot;&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;XaaS Front end Users invoke Validation UI which is hosted in Front door.&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;UI URL is resolved the WAF by the DNS which forwards the traffic to Application gateway and then to Virtual WAN and then to Load balancer&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Load Balancer then calls the ingestion service which then calls for other micro services&lt;/li&gt;&lt;/ol&gt;&lt;/font&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="279.5" y="14.25" width="245" height="110" as="geometry" />
+        <mxCell id="gwygIoX9PxEvVInZPJI2-16" value="&lt;h2&gt;&lt;font color=&quot;#0056d6&quot; style=&quot;font-size: 13px;&quot;&gt;XaaS Validation UI&lt;/font&gt;&lt;/h2&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;ol style=&quot;&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;XaaS Front end Users invoke Validation UI which is hosted in Front door.&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;UI URL is resolved the WAF by the DNS which forwards the traffic to Application gateway and then to Virtual WAN and then to Load balancer&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Load Balancer then calls the ingestion service which then calls for other micro services&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Validation UI also have dashboards from PowerBI that showcase the metric streamed by Stream Analytics.&lt;/li&gt;&lt;/ol&gt;&lt;/font&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="265" y="20.009999999999998" width="274" height="110" as="geometry" />
         </mxCell>
         <mxCell id="gwygIoX9PxEvVInZPJI2-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#0050ef;strokeColor=#001DBC;dashed=1;strokeWidth=2;flowAnimation=1;entryX=0.043;entryY=0.081;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="9XM3bCyei9nDN30-y9iY-8" target="9XM3bCyei9nDN30-y9iY-51" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -547,7 +552,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gwygIoX9PxEvVInZPJI2-18" value="&lt;h2&gt;&lt;font color=&quot;#c4bc00&quot;&gt;ML Training Subscription&lt;/font&gt;&lt;/h2&gt;&lt;ol&gt;&lt;li&gt;Data stored in Datalake is pre-processed through the Pre-Processing Pipeline of Functions and Logic Apps and then extracted by the Document Intelligence and stored back in storage&lt;/li&gt;&lt;li&gt;Then this data is fed to the Azure ML models for training and then these ML models gets deployed as endpoints in XaaS ML models by Azure Repos and Pipelines.&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="468.5" y="772.28" width="650" height="40" as="geometry" />
+          <mxGeometry x="270" y="760" width="650" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-_9wLGj-5bbOgx61z08L-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.501;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;fillColor=#008a00;strokeColor=#005700;dashed=1;strokeWidth=2;" parent="1" source="JN2mKcrzm0x3pErmMH2V-9" target="JN2mKcrzm0x3pErmMH2V-17" edge="1">
           <mxGeometry relative="1" as="geometry">

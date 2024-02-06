@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-06T11:00:12.992Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="WI9sT2Cbe-NjJbGGKOcN" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-06T11:31:53.570Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="GiEBEnP5UvkICHnDq0DZ" version="23.1.1" type="github">
   <diagram name="Page-1" id="_SyBhIFOfjh_DDNiRt_G">
-    <mxGraphModel dx="954" dy="727" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1590" dy="1212" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,7 +14,7 @@
           <mxGeometry x="22" y="443.67" width="240" height="160" as="geometry" />
         </mxCell>
         <mxCell id="JN2mKcrzm0x3pErmMH2V-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="565" y="198" width="200" height="200" as="geometry" />
+          <mxGeometry x="552" y="198" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="JN2mKcrzm0x3pErmMH2V-2" value="" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=left;verticalLabelPosition=top;align=left;verticalAlign=bottom;textDirection=ltr;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="22" y="233" width="133" height="200" as="geometry" />
@@ -46,25 +46,25 @@
           <mxGeometry x="188" y="295.25" width="68" height="68" as="geometry" />
         </mxCell>
         <mxCell id="JN2mKcrzm0x3pErmMH2V-18" value="" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="569" y="308" width="186" height="80" as="geometry" />
+          <mxGeometry x="556" y="308" width="186" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JN2mKcrzm0x3pErmMH2V-19" value="UC Networking Subscription" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="593.5" y="198" width="154" height="20" as="geometry" />
+          <mxGeometry x="580.5" y="198" width="154" height="20" as="geometry" />
         </mxCell>
         <mxCell id="JN2mKcrzm0x3pErmMH2V-20" value="Public Net" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="655" y="308" width="61" height="21" as="geometry" />
+          <mxGeometry x="642" y="308" width="61" height="21" as="geometry" />
         </mxCell>
         <mxCell id="9XM3bCyei9nDN30-y9iY-8" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Virtual_WANs.svg;" parent="1" vertex="1">
-          <mxGeometry x="675" y="223" width="65" height="64" as="geometry" />
+          <mxGeometry x="662" y="223" width="65" height="64" as="geometry" />
         </mxCell>
         <mxCell id="9XM3bCyei9nDN30-y9iY-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;dashed=1;strokeWidth=2;fillColor=#0050ef;strokeColor=#001DBC;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="596" y="323" />
-              <mxPoint x="596" y="250" />
+              <mxPoint x="583" y="323" />
+              <mxPoint x="583" y="250" />
             </Array>
-            <mxPoint x="597" y="322" as="sourcePoint" />
-            <mxPoint x="675" y="250.24999999999994" as="targetPoint" />
+            <mxPoint x="584" y="322" as="sourcePoint" />
+            <mxPoint x="662" y="250.24999999999994" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9XM3bCyei9nDN30-y9iY-13" value="XaaS Front End Web UI" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -145,7 +145,7 @@
           <mxGeometry x="884" y="451.99999999999994" width="40" height="36.92" as="geometry" />
         </mxCell>
         <mxCell id="9XM3bCyei9nDN30-y9iY-66" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/NAT.svg;" parent="1" vertex="1">
-          <mxGeometry x="722" y="355" width="33" height="33" as="geometry" />
+          <mxGeometry x="709" y="355" width="33" height="33" as="geometry" />
         </mxCell>
         <mxCell id="9XM3bCyei9nDN30-y9iY-67" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1015.75" y="604.17" width="146" height="142" as="geometry" />
@@ -406,10 +406,10 @@
           <mxGeometry x="182" y="367.75" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X3637jFj8HE0ACIkSuZc-7" value="Application Gateway" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="575" y="364" width="120" height="20" as="geometry" />
+          <mxGeometry x="562" y="364" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="X3637jFj8HE0ACIkSuZc-8" value="Virtual WAN" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="667.5" y="289.25" width="80" height="20" as="geometry" />
+          <mxGeometry x="654.5" y="289.25" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="X3637jFj8HE0ACIkSuZc-12" value="Load Balancer" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="821" y="272" width="30" height="17.5" as="geometry" />
@@ -572,19 +572,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JN2mKcrzm0x3pErmMH2V-29" value="" style="outlineConnect=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.application_load_balancer;fillColor=#F58536;gradientColor=none;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="583" y="312" width="40" height="43" as="geometry" />
+          <mxGeometry x="570" y="312" width="40" height="43" as="geometry" />
         </mxCell>
         <mxCell id="-_9wLGj-5bbOgx61z08L-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#008a00;strokeColor=#005700;dashed=1;strokeWidth=2;flowAnimation=1;entryX=0.008;entryY=0.641;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="9XM3bCyei9nDN30-y9iY-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="609" y="264" />
+              <mxPoint x="596" y="264" />
             </Array>
-            <mxPoint x="609" y="322.5" as="sourcePoint" />
-            <mxPoint x="647" y="265" as="targetPoint" />
+            <mxPoint x="596" y="322.5" as="sourcePoint" />
+            <mxPoint x="634" y="265" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hL6KDrI0XWJ_auuXcyRS-1" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Subscriptions.svg;" parent="1" vertex="1">
-          <mxGeometry x="565" y="198" width="20" height="32.27" as="geometry" />
+          <mxGeometry x="552" y="198" width="20" height="32.27" as="geometry" />
         </mxCell>
         <mxCell id="hL6KDrI0XWJ_auuXcyRS-2" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Subscriptions.svg;" parent="1" vertex="1">
           <mxGeometry x="980.56" y="555.92" width="26.7" height="43.08" as="geometry" />
@@ -606,7 +606,7 @@
           <mxGeometry x="1015.75" y="580.92" width="35.18" height="21" as="geometry" />
         </mxCell>
         <mxCell id="hL6KDrI0XWJ_auuXcyRS-14" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Virtual_Networks.svg;" parent="1" vertex="1">
-          <mxGeometry x="719.8199999999999" y="308" width="35.18" height="21" as="geometry" />
+          <mxGeometry x="706.8199999999999" y="308" width="35.18" height="21" as="geometry" />
         </mxCell>
         <mxCell id="hL6KDrI0XWJ_auuXcyRS-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#e3c800;strokeColor=#B09500;dashed=1;flowAnimation=1;" parent="1" source="hL6KDrI0XWJ_auuXcyRS-16" edge="1">
           <mxGeometry relative="1" as="geometry">

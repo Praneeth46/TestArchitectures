@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-08T13:14:31.086Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="YtlNmZo-c9BAvB15S4JO" version="23.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-08T13:15:44.773Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="CSum_SmVJ4daPuvRZ9gz" version="23.1.2" type="github">
   <diagram name="Page-1" id="_SyBhIFOfjh_DDNiRt_G">
     <mxGraphModel dx="1562" dy="846" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="#ffffff" math="0" shadow="0">
       <root>
@@ -176,7 +176,7 @@
           <mxGeometry x="1057.75" y="583.92" width="56" height="15" as="geometry" />
         </mxCell>
         <mxCell id="9XM3bCyei9nDN30-y9iY-87" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/ai_machine_learning/Cognitive_Services.svg;" parent="1" vertex="1">
-          <mxGeometry x="1249.75" y="683.42" width="67.53" height="47.67" as="geometry" />
+          <mxGeometry x="1251.47" y="683.42" width="67.53" height="47.67" as="geometry" />
         </mxCell>
         <mxCell id="9XM3bCyei9nDN30-y9iY-99" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/ai_machine_learning/Machine_Learning.svg;" parent="1" vertex="1">
           <mxGeometry x="1369.75" y="590.67" width="40" height="42.5" as="geometry" />
@@ -615,7 +615,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hL6KDrI0XWJ_auuXcyRS-16" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/devops/Azure_DevOps.svg;" parent="1" vertex="1">
-          <mxGeometry x="1470.25" y="683.4200000000001" width="41" height="41" as="geometry" />
+          <mxGeometry x="1470.25" y="686.7500000000001" width="41" height="41" as="geometry" />
         </mxCell>
         <mxCell id="hL6KDrI0XWJ_auuXcyRS-20" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Azure_Repos.svg;noLabel=0;comic=0;" parent="1" vertex="1">
           <mxGeometry x="1467.75" y="590.67" width="46" height="50" as="geometry" />

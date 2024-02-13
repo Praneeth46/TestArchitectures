@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-13T21:34:46.481Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="VjYcfqobSTTKSnhxW45U" version="23.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-13T21:51:01.473Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="R6rWm7m8KUYUAdUkFkQG" version="23.1.2" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="909" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -114,8 +114,8 @@
         <mxCell id="P7lzgnr7CxgIyVSPVY5O-28" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Virtual_Networks.svg;" vertex="1" parent="1">
           <mxGeometry x="290" y="151.33" width="30" height="17.91" as="geometry" />
         </mxCell>
-        <mxCell id="P7lzgnr7CxgIyVSPVY5O-29" value="Tenant Private VNet" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="468.46000000000004" y="155.29" width="110" height="10" as="geometry" />
+        <mxCell id="P7lzgnr7CxgIyVSPVY5O-29" value="Project Private VNet" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="150" width="120" height="15.29" as="geometry" />
         </mxCell>
         <mxCell id="P7lzgnr7CxgIyVSPVY5O-30" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/devops/Azure_DevOps.svg;" vertex="1" parent="1">
           <mxGeometry x="538.46" y="204.25" width="31" height="31" as="geometry" />
@@ -126,8 +126,8 @@
         <mxCell id="P7lzgnr7CxgIyVSPVY5O-35" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Resource_Groups.svg;" vertex="1" parent="1">
           <mxGeometry x="264.79" y="131.33" width="21.25" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="P7lzgnr7CxgIyVSPVY5O-36" value="Tenant Resource Group" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="458.46" y="130" width="130" height="16.33" as="geometry" />
+        <mxCell id="P7lzgnr7CxgIyVSPVY5O-36" value="Project Resource Group" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="130" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="P7lzgnr7CxgIyVSPVY5O-65" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/devops/Azure_DevOps.svg;" vertex="1" parent="1">
           <mxGeometry x="710" y="324.83000000000004" width="31" height="31" as="geometry" />
@@ -186,17 +186,11 @@
         <mxCell id="P7lzgnr7CxgIyVSPVY5O-100" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Virtual_Networks.svg;" vertex="1" parent="1">
           <mxGeometry x="288.46" y="311.33000000000004" width="30" height="17.91" as="geometry" />
         </mxCell>
-        <mxCell id="P7lzgnr7CxgIyVSPVY5O-101" value="Tenant Private VNet" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="466.92" y="315.28999999999996" width="110" height="10" as="geometry" />
-        </mxCell>
         <mxCell id="P7lzgnr7CxgIyVSPVY5O-102" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/devops/Azure_DevOps.svg;" vertex="1" parent="1">
           <mxGeometry x="536.9200000000001" y="364.25" width="31" height="31" as="geometry" />
         </mxCell>
         <mxCell id="P7lzgnr7CxgIyVSPVY5O-103" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Resource_Groups.svg;" vertex="1" parent="1">
           <mxGeometry x="263.25" y="291.33000000000004" width="21.25" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="P7lzgnr7CxgIyVSPVY5O-104" value="Tenant Resource Group" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="456.92" y="290" width="130" height="16.33" as="geometry" />
         </mxCell>
         <mxCell id="P7lzgnr7CxgIyVSPVY5O-105" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/iot/Function_Apps.svg;" vertex="1" parent="1">
           <mxGeometry x="439.25" y="329" width="34" height="30" as="geometry" />
@@ -231,17 +225,11 @@
         <mxCell id="P7lzgnr7CxgIyVSPVY5O-115" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Virtual_Networks.svg;" vertex="1" parent="1">
           <mxGeometry x="288.46000000000004" y="471.33000000000004" width="30" height="17.91" as="geometry" />
         </mxCell>
-        <mxCell id="P7lzgnr7CxgIyVSPVY5O-116" value="Tenant Private VNet" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="466.9200000000001" y="475.28999999999996" width="110" height="10" as="geometry" />
-        </mxCell>
         <mxCell id="P7lzgnr7CxgIyVSPVY5O-117" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/devops/Azure_DevOps.svg;" vertex="1" parent="1">
           <mxGeometry x="536.9200000000001" y="524.25" width="31" height="31" as="geometry" />
         </mxCell>
         <mxCell id="P7lzgnr7CxgIyVSPVY5O-118" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Resource_Groups.svg;" vertex="1" parent="1">
           <mxGeometry x="263.25" y="451.33000000000004" width="21.25" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="P7lzgnr7CxgIyVSPVY5O-119" value="Tenant Resource Group" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="456.92" y="450" width="130" height="16.33" as="geometry" />
         </mxCell>
         <mxCell id="P7lzgnr7CxgIyVSPVY5O-120" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/iot/Function_Apps.svg;" vertex="1" parent="1">
           <mxGeometry x="439.25" y="489" width="34" height="30" as="geometry" />
@@ -266,6 +254,18 @@
         </mxCell>
         <mxCell id="P7lzgnr7CxgIyVSPVY5O-127" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;labelBackgroundColor=default;strokeColor=default;verticalAlign=top;fontFamily=Helvetica;fontColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="346.81999999999994" y="522.38" width="35.75" height="35.75" as="geometry" />
+        </mxCell>
+        <mxCell id="P7lzgnr7CxgIyVSPVY5O-132" value="Project Resource Group" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="451.54" y="450" width="138.46" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P7lzgnr7CxgIyVSPVY5O-133" value="Project Resource Group" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="290" width="138.46" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P7lzgnr7CxgIyVSPVY5O-134" value="Project Private VNet" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="461.54" y="310" width="118.46" height="15.29" as="geometry" />
+        </mxCell>
+        <mxCell id="P7lzgnr7CxgIyVSPVY5O-135" value="Project Private VNet" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="470" width="120" height="15.28" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-16T12:30:20.365Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="5To3lOLlUWCe1gqJFPeq" version="23.1.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-16T15:26:38.733Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="NV8uWMyAAI6wEfKrFtY2" version="23.1.4" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="954" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -286,26 +286,6 @@
         </mxCell>
         <mxCell id="bd5vs1_bEggzmIcxKJGD-43" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/App_Registrations.svg;" vertex="1" parent="1">
           <mxGeometry x="540.35" y="523.38" width="36.05" height="36.62" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="_SRjHQjD1jGyfnb-gPhi" name="Page-2">
-    <mxGraphModel dx="954" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="a63qhkwBrZJXQelf5Jps-1" value="AD B2C" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Azure_AD_B2C.svg;" vertex="1" parent="1">
-          <mxGeometry x="260" y="114" width="69" height="64" as="geometry" />
-        </mxCell>
-        <mxCell id="a63qhkwBrZJXQelf5Jps-2" value="Azure AD" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Azure_Active_Directory.svg;" vertex="1" parent="1">
-          <mxGeometry x="100" y="110" width="65.63" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="a63qhkwBrZJXQelf5Jps-3" value="AD Group" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Groups.svg;" vertex="1" parent="1">
-          <mxGeometry x="180" y="114" width="68" height="56" as="geometry" />
-        </mxCell>
-        <mxCell id="a63qhkwBrZJXQelf5Jps-4" value="App Registration" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/App_Registrations.svg;" vertex="1" parent="1">
-          <mxGeometry x="390" y="90" width="63" height="64" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

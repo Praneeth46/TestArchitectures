@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-16T15:26:48.910Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="HbcjcKul20yvwynfTbIR" version="23.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-16T15:27:00.767Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="6OArrbg6Mmf4UvHSD2v4" version="23.1.4" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="954" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -141,7 +141,7 @@
           <mxGeometry x="450" y="130" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="P7lzgnr7CxgIyVSPVY5O-66" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/ai_machine_learning/Machine_Learning.svg;" parent="1" vertex="1">
-          <mxGeometry x="709.72" y="528.36" width="26.35" height="28" as="geometry" />
+          <mxGeometry x="705.3100000000001" y="528.36" width="26.35" height="28" as="geometry" />
         </mxCell>
         <mxCell id="P7lzgnr7CxgIyVSPVY5O-67" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/iot/Function_Apps.svg;" parent="1" vertex="1">
           <mxGeometry x="741.82" y="528.36" width="34" height="30" as="geometry" />

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-16T16:51:41.996Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="MU9amDRFgZI_byEzpx1c" version="23.1.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-02-16T16:56:47.472Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="xftUSbi53uBqjUYoBJZN" version="23.1.4" type="github" pages="3">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="954" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -509,7 +509,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hD-F3w8_OLfVXXMEtYoH" name="Page-3">
-    <mxGraphModel dx="1122" dy="855" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1122" dy="2024" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -578,6 +578,24 @@
         </mxCell>
         <mxCell id="0wgr6I9i571GdhdBL_F1-12" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/ai_machine_learning/Machine_Learning.svg;" vertex="1" parent="1">
           <mxGeometry x="710" y="170" width="37.5" height="39.84" as="geometry" />
+        </mxCell>
+        <mxCell id="pokmixoQuQSnCC7Dn4SH-3" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;" vertex="1" parent="1">
+          <mxGeometry x="600" y="180" width="43.13" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pokmixoQuQSnCC7Dn4SH-4" value="Self-Hosted Agent" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="586.56" y="220" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KuWyAPGW2T_kfHQX7GDW-1" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/App_Registrations.svg;" vertex="1" parent="1">
+          <mxGeometry x="110" y="150" width="29.53" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KuWyAPGW2T_kfHQX7GDW-2" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/seo-flat-6/128/34_Custom_Coding-128.png" vertex="1" parent="1">
+          <mxGeometry x="618.29" y="320" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KuWyAPGW2T_kfHQX7GDW-3" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/essential-3/32/356-Document_Code-128.png" vertex="1" parent="1">
+          <mxGeometry x="367.58" y="120" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="KuWyAPGW2T_kfHQX7GDW-4" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.code_file" vertex="1" parent="1">
+          <mxGeometry x="530.87" y="-10" width="49" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

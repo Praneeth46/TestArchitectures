@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-17T09:48:32.253Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="mgxGllRjFMqVAqNKjd1r" version="23.1.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-02-17T09:49:28.803Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="bI5Fii20lSpckV7JKQQh" version="23.1.5" type="github" pages="3">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="953" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -517,7 +517,7 @@
           <mxGeometry x="440" y="280" width="320" height="200" as="geometry" />
         </mxCell>
         <mxCell id="zDQ0ngyJ2iC5lHKxADhB-2" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/devops/Azure_DevOps.svg;" parent="1" vertex="1">
-          <mxGeometry x="448.6800000000001" y="281.33000000000004" width="31" height="31" as="geometry" />
+          <mxGeometry x="440.0000000000001" y="280.00000000000006" width="31" height="31" as="geometry" />
         </mxCell>
         <mxCell id="zDQ0ngyJ2iC5lHKxADhB-5" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Azure_Artifacts.svg;" parent="1" vertex="1">
           <mxGeometry x="460" y="343.59999999999997" width="35.17" height="35.17" as="geometry" />
@@ -568,10 +568,10 @@
           <mxGeometry x="620" y="120" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="0wgr6I9i571GdhdBL_F1-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="535" y="150" width="80" height="100" as="geometry" />
+          <mxGeometry x="535" y="140" width="80" height="110" as="geometry" />
         </mxCell>
         <mxCell id="pokmixoQuQSnCC7Dn4SH-1" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Virtual_Networks.svg;" parent="1" vertex="1">
-          <mxGeometry x="535" y="149.7" width="34.5" height="20.6" as="geometry" />
+          <mxGeometry x="535" y="140" width="34.5" height="20.6" as="geometry" />
         </mxCell>
         <mxCell id="pokmixoQuQSnCC7Dn4SH-3" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;" parent="1" vertex="1">
           <mxGeometry x="553.35" y="181.03" width="40.91" height="37.94" as="geometry" />
@@ -680,7 +680,10 @@
           <mxGeometry x="448.68" y="443.75" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2CEEEh7SWEoMszNJt-Yz-30" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="150" width="120" height="100" as="geometry" />
+          <mxGeometry x="630" y="140" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="2CEEEh7SWEoMszNJt-Yz-31" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Virtual_Networks.svg;" vertex="1" parent="1">
+          <mxGeometry x="630" y="140" width="34.5" height="20.6" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-08T16:19:24.573Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="dgZVfLNegduPwRyUDJel" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-08T16:23:07.604Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="2ey9KQKABBwNVS9B_J1u" version="24.0.2" type="github">
   <diagram name="Page-1" id="4AKVum7g2aCIMYz--MYV">
-    <mxGraphModel dx="1122" dy="855" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1363" dy="1039" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -59,7 +59,7 @@
           <mxGeometry x="860" y="254.00000000000003" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Z_4IfypG2J4DMqpjWZ7h-20" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/DNS_Zones.svg;" vertex="1" parent="1">
-          <mxGeometry x="740" y="20" width="34.4" height="34.4" as="geometry" />
+          <mxGeometry x="254.92" y="372.40000000000003" width="47.2" height="47.2" as="geometry" />
         </mxCell>
         <mxCell id="Z_4IfypG2J4DMqpjWZ7h-21" value="NAT Gateway" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/NAT.svg;" vertex="1" parent="1">
           <mxGeometry x="440.28" y="493" width="50" height="50" as="geometry" />
@@ -89,16 +89,13 @@
           <mxGeometry x="588" y="494" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Z_4IfypG2J4DMqpjWZ7h-31" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Azure_A.svg;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="68" height="64.12" as="geometry" />
+          <mxGeometry x="200" y="10" width="68" height="64.12" as="geometry" />
         </mxCell>
-        <mxCell id="Z_4IfypG2J4DMqpjWZ7h-32" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/App_Registrations.svg;" vertex="1" parent="1">
-          <mxGeometry x="518" y="12" width="57.08" height="58" as="geometry" />
+        <mxCell id="Z_4IfypG2J4DMqpjWZ7h-32" value="App Registration" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/App_Registrations.svg;" vertex="1" parent="1">
+          <mxGeometry x="39.61" y="72.06" width="71.79" height="72.94" as="geometry" />
         </mxCell>
         <mxCell id="Z_4IfypG2J4DMqpjWZ7h-33" value="Container Apps" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Container_App_Environments.svg;" vertex="1" parent="1">
           <mxGeometry x="960" y="254.00000000000003" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Z_4IfypG2J4DMqpjWZ7h-34" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/iot/Function_Apps.svg;" vertex="1" parent="1">
-          <mxGeometry x="640" y="20" width="68" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Z_4IfypG2J4DMqpjWZ7h-35" value="Browser" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Browser.svg;" vertex="1" parent="1">
           <mxGeometry x="43" y="370" width="65" height="52" as="geometry" />
@@ -230,11 +227,21 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z_4IfypG2J4DMqpjWZ7h-81" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Azure_Active_Directory.svg;" vertex="1" parent="1">
-          <mxGeometry x="251.17" y="150" width="54.69" height="50" as="geometry" />
+        <mxCell id="Z_4IfypG2J4DMqpjWZ7h-81" value="Active Directory" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Azure_Active_Directory.svg;" vertex="1" parent="1">
+          <mxGeometry x="39.61" y="210" width="64.84" height="59.28" as="geometry" />
         </mxCell>
-        <mxCell id="Z_4IfypG2J4DMqpjWZ7h-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.491;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Z_4IfypG2J4DMqpjWZ7h-23" target="Z_4IfypG2J4DMqpjWZ7h-81">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Z_4IfypG2J4DMqpjWZ7h-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.064;entryY=0.511;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Z_4IfypG2J4DMqpjWZ7h-23" target="Z_4IfypG2J4DMqpjWZ7h-81">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="279" />
+              <mxPoint x="160" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z_4IfypG2J4DMqpjWZ7h-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z_4IfypG2J4DMqpjWZ7h-81">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="72" y="170" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

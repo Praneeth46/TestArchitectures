@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-08T15:01:02.365Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="QaUuph0N6YXV6v0kkVEe" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-08T15:04:09.651Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="SD5pnbKhB6W8r-5vgSUF" version="24.0.2" type="github">
   <diagram name="Page-1" id="4AKVum7g2aCIMYz--MYV">
     <mxGraphModel dx="954" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -62,7 +62,7 @@
           <mxGeometry x="440" y="382" width="34.4" height="34.4" as="geometry" />
         </mxCell>
         <mxCell id="Z_4IfypG2J4DMqpjWZ7h-21" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/NAT.svg;" vertex="1" parent="1">
-          <mxGeometry x="383.5" y="490" width="40" height="40" as="geometry" />
+          <mxGeometry x="399.38" y="490" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Z_4IfypG2J4DMqpjWZ7h-22" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Egress Firewall Subnet&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="418.1" y="430.72" width="161.9" height="20" as="geometry" />
@@ -89,7 +89,7 @@
           <mxGeometry x="221.5" y="490" width="65" height="52" as="geometry" />
         </mxCell>
         <mxCell id="Z_4IfypG2J4DMqpjWZ7h-30" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Web_Application_Firewall_Policies_WAF.svg;" vertex="1" parent="1">
-          <mxGeometry x="505.5" y="500" width="60" height="60" as="geometry" />
+          <mxGeometry x="505.5" y="486" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Z_4IfypG2J4DMqpjWZ7h-31" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Azure_A.svg;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="68" height="64.12" as="geometry" />
@@ -105,6 +105,12 @@
         </mxCell>
         <mxCell id="Z_4IfypG2J4DMqpjWZ7h-35" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Browser.svg;" vertex="1" parent="1">
           <mxGeometry x="40" y="318" width="65" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Z_4IfypG2J4DMqpjWZ7h-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.008;entryY=0.481;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Z_4IfypG2J4DMqpjWZ7h-21" target="Z_4IfypG2J4DMqpjWZ7h-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z_4IfypG2J4DMqpjWZ7h-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.012;entryY=0.52;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Z_4IfypG2J4DMqpjWZ7h-30" target="Z_4IfypG2J4DMqpjWZ7h-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

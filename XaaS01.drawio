@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-13T18:43:00.293Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15" etag="bhYY4b1QFrmYZg1Z-Oe4" version="24.5.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-06-13T18:56:36.490Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15" etag="RbcfeoJLshiFmDjIZyum" version="24.5.4" type="github" pages="4">
   <diagram name="Page-1" id="_SyBhIFOfjh_DDNiRt_G">
     <mxGraphModel dx="1120" dy="494" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1622,7 +1622,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="BkCIoaU8UIoVEX__SkIq" name="Page-4">
-    <mxGraphModel dx="1193" dy="951" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1590" dy="1268" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1750,8 +1750,8 @@
         <mxCell id="t0CdW0QhSgwD8UIfF6TF-31" value="Private DNS" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/DNS_Zones.svg;" vertex="1" parent="1">
           <mxGeometry x="914.8399999999999" y="221.36999999999995" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="t0CdW0QhSgwD8UIfF6TF-33" value="&lt;h2&gt;&lt;font style=&quot;font-size: 13px;&quot; color=&quot;#38571a&quot;&gt;Client App Injection and Extraction&lt;/font&gt;&lt;/h2&gt;&lt;font&gt;&lt;ol style=&quot;font-size: 9px;&quot;&gt;&lt;li&gt;Upstream Application calls for Injestion API &amp;nbsp;to upload documents which gets resolved to the WAF which then gets forwarded Load Balancer in &amp;nbsp;Xtrakto subscription through the Application Gateway and Virtual WAN.&lt;br&gt;&lt;/li&gt;&lt;li&gt;Ingestion Service is hosted in Container Apps which also calls various other micro services.&lt;/li&gt;&lt;li&gt;The documents ingested are stored in data lake.&lt;/li&gt;&lt;li&gt;Ingestion Service also calls the Xtrakto Pipeline for data extraction for which the pipeine follows various document processing steps through Functions, Logic Apps and Document Intelligence&amp;nbsp;&lt;/li&gt;&lt;li&gt;Xtrakto Pipeline upon the preprocessing calls the Azure ML models and the output is stored in data lake in JSON Format as Extracted data.&lt;/li&gt;&lt;li&gt;The Extracted data is accessible for human validation and upon validation the Validated data is sent back to Downstream Application.&lt;/li&gt;&lt;li&gt;Metric events from Xtrakto pipeline are sent to Stream analytics to be streamed in real time to Synapse Analytics.&lt;/li&gt;&lt;li&gt;This real time analytics are showcased in PowerBI dashboards which are embedded into the Validation UI.&lt;/li&gt;&lt;/ol&gt;&lt;/font&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelPosition=center;verticalLabelPosition=middle;" vertex="1" parent="1">
-          <mxGeometry x="10" y="585.0000000000001" width="378" height="187.72" as="geometry" />
+        <mxCell id="t0CdW0QhSgwD8UIfF6TF-33" value="&lt;h2&gt;&lt;font style=&quot;font-size: 13px;&quot; color=&quot;#38571a&quot;&gt;Client App Injection and Extraction&lt;/font&gt;&lt;/h2&gt;&lt;font&gt;&lt;ol style=&quot;font-size: 9px;&quot;&gt;&lt;li&gt;Upstream Application calls for Injestion API to upload documents which gets resolved to the Firewall which then forwards to a Load Balancer.&lt;br&gt;&lt;/li&gt;&lt;li&gt;API is managed through Azure API Management Service which also help in authentication.&lt;/li&gt;&lt;li&gt;Ingestion Service is hosted in Container Apps which also calls various other micro services.&lt;/li&gt;&lt;li&gt;The documents ingested are stored in data lake.&lt;/li&gt;&lt;li&gt;Ingestion Service also calls the Xtrakto Pipeline for data extraction for which the pipeine follows various document processing steps through Functions, Logic Apps and Document Intelligence&amp;nbsp;&lt;/li&gt;&lt;li&gt;Xtrakto Pipeline after the preprocessing calls the Open AI models through its API for Inference and the output and continues the logic app&#39;s workflow.&lt;/li&gt;&lt;/ol&gt;&lt;/font&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelPosition=center;verticalLabelPosition=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="560.4300000000002" width="378" height="187.72" as="geometry" />
         </mxCell>
         <mxCell id="t0CdW0QhSgwD8UIfF6TF-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.501;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;fillColor=#008a00;strokeColor=#005700;dashed=1;strokeWidth=2;" edge="1" parent="1" source="t0CdW0QhSgwD8UIfF6TF-9">
           <mxGeometry relative="1" as="geometry">
@@ -1898,16 +1898,6 @@
             <mxPoint x="620" y="380" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="t0CdW0QhSgwD8UIfF6TF-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#008a00;strokeColor=#005700;dashed=1;strokeWidth=2;flowAnimation=1;entryX=-0.03;entryY=0.493;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.004;exitY=0.562;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="638" y="950" />
-              <mxPoint x="638" y="950" />
-            </Array>
-            <mxPoint x="791.0000000000001" y="950" as="targetPoint" />
-            <mxPoint x="610" y="950" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="t0CdW0QhSgwD8UIfF6TF-101" value="Pipeline" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Azure_Pipelines.svg;" vertex="1" parent="1">
           <mxGeometry x="1356.62" y="700" width="70" height="70" as="geometry" />
         </mxCell>
@@ -1996,6 +1986,9 @@
             <mxPoint x="666" y="362.038" as="targetPoint" />
             <mxPoint x="600" y="325.68" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="rilMe-8rLCORsswioL0I-20" value="&lt;h2&gt;&lt;font style=&quot;font-size: 13px;&quot; color=&quot;#38571a&quot;&gt;Infrastructure and Application deployemnt&lt;/font&gt;&lt;/h2&gt;&lt;font&gt;&lt;ol style=&quot;font-size: 9px;&quot;&gt;&lt;li&gt;App Registration is created in AD to be used as the identity to run the pipeline.&lt;/li&gt;&lt;li&gt;Permissions and Roles required to run Azure pipelines are given to this App Registration&lt;/li&gt;&lt;li&gt;This App Registration is used to to create a Service Connection in Azure DevOps Project.&lt;/li&gt;&lt;li&gt;Azure Repos hold the Infrastructure and application code along with the Azure pipelines, Yaml file&lt;/li&gt;&lt;li&gt;The pipeline uses the service connection to deploy the infrastructure and the application into the infrastructure.&lt;/li&gt;&lt;/ol&gt;&lt;/font&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelPosition=center;verticalLabelPosition=middle;" vertex="1" parent="1">
+          <mxGeometry x="440" y="570" width="378" height="142.34" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-25T12:38:05.094Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15" etag="_HOHYW_xqUkHWZPdNQYg" version="24.5.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-06-25T12:38:33.975Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15" etag="auNoOeTqglVmSPcSHdz9" version="24.5.5" type="github" pages="5">
   <diagram name="Page-1" id="_SyBhIFOfjh_DDNiRt_G">
     <mxGraphModel dx="1120" dy="494" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="#ffffff" math="0" shadow="0">
       <root>
@@ -2300,8 +2300,8 @@
         <mxCell id="t14K364mbEvsufcNuxTW-3" value="Private Endpoint" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Private_Endpoint.svg;" vertex="1" parent="1">
           <mxGeometry x="1210.68" y="180.48" width="44.62" height="40.9" as="geometry" />
         </mxCell>
-        <mxCell id="t14K364mbEvsufcNuxTW-4" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Managed_Identities.svg;" vertex="1" parent="1">
-          <mxGeometry x="1053.79" y="400.27" width="41.21" height="40" as="geometry" />
+        <mxCell id="t14K364mbEvsufcNuxTW-4" value="Managed Identity" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Managed_Identities.svg;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="390.26" width="41.21" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

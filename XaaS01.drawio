@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-21T11:00:40.246Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="RxI7pPOLCtm26dNlNwqD" version="24.5.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-06-25T12:38:05.094Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15" etag="_HOHYW_xqUkHWZPdNQYg" version="24.5.5" type="github" pages="5">
   <diagram name="Page-1" id="_SyBhIFOfjh_DDNiRt_G">
     <mxGraphModel dx="1120" dy="494" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1994,7 +1994,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HxQGyBXIWLtdicqRlUBP" name="Page-5">
-    <mxGraphModel dx="1467" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="906" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2077,7 +2077,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2ACostfwSm79Yx00VeXK-28" value="Storage Account" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/storage/Storage_Accounts.svg;" parent="1" vertex="1">
-          <mxGeometry x="1116.61" y="261.37" width="68.77" height="56.27" as="geometry" />
+          <mxGeometry x="1128.31" y="271.51" width="45.38" height="37.13" as="geometry" />
         </mxCell>
         <mxCell id="2ACostfwSm79Yx00VeXK-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#008a00;strokeColor=#005700;strokeWidth=2;dashed=1;flowAnimation=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -2089,7 +2089,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2ACostfwSm79Yx00VeXK-30" value="Private DNS" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/DNS_Zones.svg;" parent="1" vertex="1">
-          <mxGeometry x="1082.2399999999998" y="180.47999999999996" width="40" height="40" as="geometry" />
+          <mxGeometry x="1054.9999999999998" y="180.47999999999996" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2ACostfwSm79Yx00VeXK-31" value="&lt;h2&gt;&lt;font style=&quot;font-size: 13px;&quot; color=&quot;#38571a&quot;&gt;Client App Injection and Extraction&lt;/font&gt;&lt;/h2&gt;&lt;font&gt;&lt;ol style=&quot;font-size: 9px;&quot;&gt;&lt;li&gt;Care Radius Web Server calls for Injestion API to upload documents. It takes care of the authentication.&lt;br&gt;&lt;/li&gt;&lt;li&gt;Ingestion Service is hosted in Container Apps which also calls various other micro services.&lt;br&gt;&lt;/li&gt;&lt;li&gt;The documents ingested are stored in data lake.&lt;/li&gt;&lt;li&gt;Ingestion Service also calls the Xtrakto Pipeline for data extraction for which the pipeine follows various document processing steps through Functions, Logic Apps.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Xtrakto Pipeline after the preprocessing calls the Open AI models through its API for Inference and the output and continues the logic app&#39;s workflow and then back to the Care Raidus Web Server.&lt;/li&gt;&lt;/ol&gt;&lt;/font&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelPosition=center;verticalLabelPosition=middle;" parent="1" vertex="1">
           <mxGeometry x="196" y="524.6200000000002" width="378" height="187.72" as="geometry" />
@@ -2115,7 +2115,7 @@
         <mxCell id="2ACostfwSm79Yx00VeXK-39" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Xtrakto Workload Subscriptions&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="718" y="100.43" width="206" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="2ACostfwSm79Yx00VeXK-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=1;fillColor=#008a00;strokeColor=#005700;flowAnimation=1;exitX=0.993;exitY=0.764;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.484;entryY=-0.048;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="2ACostfwSm79Yx00VeXK-23" edge="1" source="2ACostfwSm79Yx00VeXK-20">
+        <mxCell id="2ACostfwSm79Yx00VeXK-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=1;fillColor=#008a00;strokeColor=#005700;flowAnimation=1;exitX=0.993;exitY=0.764;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.484;entryY=-0.048;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="2ACostfwSm79Yx00VeXK-20" target="2ACostfwSm79Yx00VeXK-23" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="873" y="391" />
@@ -2155,7 +2155,7 @@
           <mxGeometry x="1352.88" y="468.17999999999995" width="66.02" height="58.25" as="geometry" />
         </mxCell>
         <mxCell id="2ACostfwSm79Yx00VeXK-49" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://static-00.iconduck.com/assets.00/brand-openai-icon-2048x1986-ypqx3hum.png;" parent="1" vertex="1">
-          <mxGeometry x="1163" y="451.05" width="47.68" height="46.21" as="geometry" />
+          <mxGeometry x="1160" y="451.05" width="50.68" height="49.12" as="geometry" />
         </mxCell>
         <mxCell id="2ACostfwSm79Yx00VeXK-51" value="Logic App" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1325.75" y="272.49" width="60" height="13.92" as="geometry" />
@@ -2290,6 +2290,18 @@
             <mxPoint x="498" y="391" as="targetPoint" />
             <mxPoint x="758.8834000000002" y="389.6786000000002" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="t14K364mbEvsufcNuxTW-1" value="Key Vault" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/security/Key_Vaults.svg;" vertex="1" parent="1">
+          <mxGeometry x="1132.93" y="181.85999999999999" width="39.52" height="39.52" as="geometry" />
+        </mxCell>
+        <mxCell id="t14K364mbEvsufcNuxTW-2" value="App" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/devops/Application_Insights.svg;" vertex="1" parent="1">
+          <mxGeometry x="1059.19" y="450.9" width="34.29" height="49.1" as="geometry" />
+        </mxCell>
+        <mxCell id="t14K364mbEvsufcNuxTW-3" value="Private Endpoint" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Private_Endpoint.svg;" vertex="1" parent="1">
+          <mxGeometry x="1210.68" y="180.48" width="44.62" height="40.9" as="geometry" />
+        </mxCell>
+        <mxCell id="t14K364mbEvsufcNuxTW-4" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Managed_Identities.svg;" vertex="1" parent="1">
+          <mxGeometry x="1053.79" y="400.27" width="41.21" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

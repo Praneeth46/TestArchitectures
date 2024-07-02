@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-02T14:24:28.315Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15" etag="yEiYxc_5DhzirJWT6O9N" version="24.6.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-07-02T14:24:58.647Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15" etag="mwD1lh_cMw9IGSJLWnFU" version="24.6.2" type="github" pages="5">
   <diagram name="Page-1" id="_SyBhIFOfjh_DDNiRt_G">
     <mxGraphModel dx="1120" dy="494" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="#ffffff" math="0" shadow="0">
       <root>
@@ -2311,6 +2311,9 @@
         </mxCell>
         <mxCell id="tNaF_kGHyvhxbxyTGDPM-5" value="Container Registry" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/containers/Container_Registries.svg;" vertex="1" parent="1">
           <mxGeometry x="1008.79" y="460.5300000000001" width="41.21" height="36.96" as="geometry" />
+        </mxCell>
+        <mxCell id="tNaF_kGHyvhxbxyTGDPM-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.022;entryY=0.638;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tNaF_kGHyvhxbxyTGDPM-5" target="2ACostfwSm79Yx00VeXK-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

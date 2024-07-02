@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-02T13:51:47.690Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15" etag="KX7tJjSRMb9XHHFGy09p" version="24.6.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-07-02T14:24:18.633Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15" etag="5VmYeIhR_Zib65QHR_oD" version="24.6.2" type="github" pages="5">
   <diagram name="Page-1" id="_SyBhIFOfjh_DDNiRt_G">
     <mxGraphModel dx="1120" dy="494" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="#ffffff" math="0" shadow="0">
       <root>
@@ -2128,7 +2128,7 @@
         <mxCell id="2ACostfwSm79Yx00VeXK-44" value="ACAE" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Service_Environments.svg;" parent="1" vertex="1">
           <mxGeometry x="741.8" y="263.15000000000003" width="36.55" height="36.55" as="geometry" />
         </mxCell>
-        <mxCell id="2ACostfwSm79Yx00VeXK-45" value="Frontend Module" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="2ACostfwSm79Yx00VeXK-45" value="API Module" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="719.7" y="200.43000000000004" width="96" height="17" as="geometry" />
         </mxCell>
         <mxCell id="2ACostfwSm79Yx00VeXK-46" value="Jobs DB" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;" parent="1" vertex="1">
